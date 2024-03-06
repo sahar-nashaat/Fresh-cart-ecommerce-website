@@ -2,7 +2,6 @@ import React from "react";
 import style from "./Footer.module.css";
 import pay1 from "../../assets/imgs/Amazon_Pay-Logo.wine.png";
 import pay2 from "../../assets/imgs/png-transparent-amex-card-credit-logo-logos-logos-and-brands-icon-thumbnail.png";
-import pay3 from "../../assets/imgs/kisspng-mastercard-logo-credit-card-maestro-payment-card-mastercard-mastercard-logo-design-vector-free-down-5b7bd9c7c83ef0.9372206915348433358202.jpg";
 import pay4 from "../../assets/imgs/new-PayPal-Logo-horizontal-full-color-png.png";
 import app1 from "../../assets/imgs/2.png.jpg";
 import app2 from "../../assets/imgs/3.png.jpg";
@@ -31,7 +30,6 @@ export default function Footer() {
           <div className="d-flex">
             <img height={25} src={pay1} alt="amazon pay" />
             <img height={25} src={pay2} alt="american express" />
-            <img height={25} src={pay3} alt="mastercard" />
             <img height={25} src={pay4} alt="paypal" />
           </div>
         </div>
